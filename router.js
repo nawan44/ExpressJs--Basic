@@ -8,6 +8,7 @@ app.get('/', (req, res) => {
 })
 
 app.use('/user', require('./routes/user'))
+
 app.listen(port, () => {
-    console.log(`Port on ${port}`)
+    console.log(`Port on:${port}`)
 })
