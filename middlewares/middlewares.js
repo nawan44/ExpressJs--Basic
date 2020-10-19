@@ -1,4 +1,4 @@
 const maintenance = require("./maintenance")
-const log = require("./log")
+const log = require("./middlewares/log")
 
 module.exports = [maintenance, log]
